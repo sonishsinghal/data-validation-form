@@ -20,7 +20,7 @@ const FormSignup = ({ submitForm }) => {
                     </div>
                     <div className="form-inputs">
                     <label htmlFor="rollno" className="form-label">Roll Number:</label>
-                    <input type="text" name="rollno" className="form-input" placeholder="Enter your Roll Number" value={values.rollno} onChange={handleChange} />
+                    <input type="text" name="rollno" className="form-input" placeholder="Enter your IITM Roll Number" value={values.rollno} onChange={handleChange} />
                     {errors.rollno && <p>{errors.rollno}</p>}
                     </div>
                     <div className="form-inputs">
